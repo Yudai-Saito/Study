@@ -1,0 +1,28 @@
+
+* {
+    margin:0; 
+    padding:0;
+}
+
+header {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header .headline{
+    font-size: 32px;
+}
+
+#head_txt{
+    margin-bottom: 30px;
+}
+
+#main{
+    float: left;
+}
+  
+#side{
+    float: right;
+}

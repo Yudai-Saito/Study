@@ -1,0 +1,67 @@
+header {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .headline{
+    margin: 0 auto;
+    font-size: 32px;
+}
+
+.body_txt{
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: #008cff;
+    margin: 5px;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: double 5px #643c03;
+}
+
+.bike {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(bike_helmet_man.png);
+    background-attachment: fixed;
+  }
+
+ul, ol {
+    color: #1e366a;
+    border-top: solid #1e366a 1px;
+    border-bottom: solid #1e366a 1px;
+    padding: 0.5em 0 0.5em 1.5em;
+}
+  
+ul li, ol li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+
+#button {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.kawasaki {
+    margin: 1px;
+    color: #fff;
+    background: #015e25;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.kawasaki:hover {
+    background: #008cff;
+}

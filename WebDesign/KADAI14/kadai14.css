@@ -1,0 +1,42 @@
+* {
+    margin:0; 
+    padding:0;
+}
+
+header {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header .headline{
+    font-size: 32px;
+}
+
+#head_txt{
+    margin-bottom: 30px;
+}
+
+.body_image{
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: double 5px #643c03;
+}
+
+.text{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22); 
+}
+
+.text p {
+    margin: 0; 
+    padding: 0;
+}

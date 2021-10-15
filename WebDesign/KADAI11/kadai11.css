@@ -1,0 +1,31 @@
+
+input {
+  display: none;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #ff00ff;
+    color: #333;
+}
+
+.tablabel {
+	width: 50px;
+	height: 20px;
+	border: solid 3px #000000;
+}
+
+.tabbox {
+	width: 558px;
+	height: 120px;
+	border: solid 3px #000000;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    display: none;
+}
+
+#tab1:checked ~ .box1 { display: block; }
+#tab2:checked ~ .box2 { display: block; }
+#tab3:checked ~ .box3 { display: block; }
+#tab4:checked ~ .box4 { display: block; }
+#tab5:checked ~ .box5 { display: block; }
